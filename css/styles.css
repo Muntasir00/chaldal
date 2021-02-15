@@ -99,18 +99,24 @@ img.emoji {
 }
 
 .footer{
-    background-color: #282828;
-    /*background-color: #777;*/
+    background-color: #282828!important;
     color: #f1f1f1;
     font-weight: bold;
+}
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
 }
 .footer h6{
     font-weight: 600;
     letter-spacing: .05em;
+    color: #fff;
 }
-.footer {
-    background-color: #777;
-}
+
 .footer p {
     margin-bottom: 0px;
     text-align: left;
@@ -456,6 +462,7 @@ i.fa.fa-cart-arrow-down {
 .bs-tooltip-bottom .arrow::before {
     border-bottom-color: #f00;
 }
+
 
 
 
